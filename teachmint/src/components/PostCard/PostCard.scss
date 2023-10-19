@@ -1,0 +1,48 @@
+@media screen and (min-width: 480px) {
+  .timer-section {
+    display: flex;
+    margin: 20px;
+    .timer-wrapper {
+      display: flex;
+      width: 70%;
+      justify-content: end;
+      .div {
+        margin: 0px 20px;
+      }
+    }
+    .back-button {
+      width: 30%;
+      text-align: left;
+    }
+  }
+  .post-box {
+    display: inline-block;
+    //   min-height: 150px;
+    width: 30%;
+    margin: 10px;
+    float: left;
+  }
+}
+
+.userdeatils-section {
+  display: flex;
+  margin: 10px 10px;
+  //   padding: 20px 0px;
+  border: 1px solid black;
+  border-radius: 5px;
+  div {
+    width: 50%;
+  }
+}
+.postdeatils-section {
+  //   display: flex;
+  width: 100%;
+}
+
+.post-box {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.clock-wrapper {
+  margin: 0px 20px;
+}
